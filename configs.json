@@ -23,17 +23,6 @@
 			"should_read": true
 		},
 		{
-			"url": "https://github.com/ManifestBW/config",
-			"repo_name": "Config",
-			"repo_path": "./config",
-			"has_core": true,
-			"core_path": "bin",
-			"data_path": "",
-			"script_path": "script",
-			"should_update": true,
-			"should_read": true
-		},
-		{
 			"url": "https://github.com/ManifestBW/Pathogen-Pics",
 			"repo_name": "ManifestBW Image Updates",
 			"repo_path": "./pics",
