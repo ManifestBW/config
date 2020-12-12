@@ -1,0 +1,108 @@
+{
+	"repos": [
+		{
+			"url": "https://github.com/ManifestBW/Prototyrant-Dynasty",
+			"repo_name": "Prototyrant_Dynasty",
+			"repo_path": "./expansions",
+			"has_core": true,
+			"core_path": "bin",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ManifestBW/Official.git",
+			"repo_name": "ManifestBW Script Updates",
+			"repo_path": "./script",
+			"has_core": true,
+			"core_path": "bin",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ManifestBW/Pathogen-Pics",
+			"repo_name": "ManifestBW Image Updates",
+			"repo_path": "./pics",
+			"has_core": true,
+			"core_path": "bin",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ProjectIgnis/LFLists",
+			"repo_name": "Forbidden & Limited Card Lists",
+			"repo_path": "./repositories/lflists",
+			"lflist_path": ".",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ManifestBW/Windbot_Modifications",
+			"repo_name": "A.I. Updates",
+			"repo_path": "./Windbot",
+			"has_core": true,
+			"core_path": "bin",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ProjectIgnis/Puzzles",
+			"repo_name": "Project Ignis puzzles",
+			"repo_path": "./puzzles/Canon collection",
+			"should_update": false,
+			"should_read": false
+		}
+	],
+	"urls": [
+		{
+			"url": "default",
+			"type": "pic"
+		},
+		{
+			"url": "default",
+			"type": "field"
+		},
+		{
+			"url": "default",
+			"type": "cover"
+		}
+	],
+	"servers": [
+		{
+			"name": "EU Central (Casual)",
+			"address": "185.227.110.90",
+			"duelport": 7912,
+			"roomaddress": "185.227.110.90",
+			"roomlistport": 7923
+		},
+		{
+			"name": "EU Central (Competitive)",
+			"address": "185.227.110.90",
+			"duelport": 7911,
+			"roomaddress": "185.227.110.90",
+			"roomlistport": 7922
+		},
+		{
+			"name": "US West (Casual)",
+			"address": "146.71.79.166",
+			"duelport": 7911,
+			"roomaddress": "146.71.79.166",
+			"roomlistport": 7922
+		},
+		{
+			"name": "US West (Competitive)",
+			"address": "146.71.79.166",
+			"duelport": 7912,
+			"roomaddress": "146.71.79.166",
+			"roomlistport": 7923
+		}
+	],
+	"posixPathExtension": "/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+}
